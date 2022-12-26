@@ -22,12 +22,29 @@ const GunDetailsModal = ({details, setDetails}) => {
           <h3 className="text-lg font-bold">
             {name}
           </h3>
-          <figure className="h-screen">
-          <img src={img} alt="Shoes"/>
-        </figure>
-          <p className="py-4">
-            {price}
+          <img src={img} alt="Shoes" className="w-screen h-64"/>
+          <div className="flex justify-between">
+          <div>
+          <p className="my-2">
+           $ {price}
           </p>
+          </div>
+          <div>
+          <p className="my-2">
+           $ {price}
+          </p>
+          </div>
+          <div>
+          <p className="my-2">
+           $ {price}
+          </p>
+          </div>
+          <div>
+          <p className="my-2">
+           $ {price}
+          </p>
+          </div>
+          </div>
         </div>
       </div>
     </div>

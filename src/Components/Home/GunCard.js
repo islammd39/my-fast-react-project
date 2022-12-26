@@ -9,7 +9,7 @@ const GunCard = ({ gun, count }) => {
     <>
       <div className="card w-full h-full bg-base-100 shadow-xl">
         <figure>
-          <img src={img} alt="Shoes" className="h-64 w-3/4"/>
+          <img src={img} alt="Shoes" className="h-64 w-3/4 m-5"/>
         </figure>
         <div className="card-body">
           <h2 className="card-title">{name}</h2>
